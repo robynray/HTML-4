@@ -1,1 +1,65 @@
+
+body{
+    line-height: 1.2;
+    width: 100%;
+    max-width: fit-content;
+    /* margin: 0 auto; */
+    display: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font: 600; */
+    margin: 8px;
+    background-color: linen;
+    background-blend-mode: difference;
+}
+h1#mainHeading { 
+    color: red;
+    font-size: 402%;
+    text-align: center;
+    text-decoration: solid;
+   
+}
+
+h2, h3, h4{
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+    padding: 1.5em;
+
+}
+.h1image {
+    width: 100%;
+    max-width: 100%;
+    height: 400px; 
+    border-radius: 10px;
+    object-fit: cover;
+    float: middle; 
+    margin-right: 40px;
+    padding: auto;
+
+}
+
+p{
+    padding: .5em;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    float: center; 
+    margin-right: 40px;
+}
+
+p.funParagraph {
+    color:green;
+    padding: 1em;
+}
+
+footer {
+    display: inline;
+    text-align: center;
+    padding: 3em;
+}
 /* Write your CSS here! */
